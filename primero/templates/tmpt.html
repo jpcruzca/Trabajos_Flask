@@ -1,0 +1,50 @@
+{% extends 'base/base.html'%} #utilizando un template 
+
+{% block content %}
+
+	<p> esto es parte de una template </p>
+	{% if age > 0 %}
+	<p> {{age}} es mayor que cero </p>
+	{%else%}
+	<p> {{age}} es menor que cero </p>
+	{%endif%}
+	<a href="https://www.codecademy.com/learn/learn-html/modules/learn-html-elements"> link html </a>
+	<img src="https://www.google.com/search?q=imagenes&safe=active&client=firefox-b-d&tbm=isch&source=iu&ictx=1&fir=BXVZpfesv30VAM%252C3GIGEjtn1lE2RM%252C_&vet=1&usg=AI4_-kRF-xXySPwNgSQ3keYbnpCaFORk2g&sa=X&ved=2ahUKEwjwsYq3_ILrAhWpl-AKHZPsCQEQ9QEwAXoECAoQHw&biw=1366&bih=626#imgrc=BXVZpfesv30VAM" alt="Imagen Random">
+	<form>
+		<input type="text" name="escribe tu texto">
+
+	</form>
+
+	<script type="text/javascript">
+		
+		alert('Hola como estas, recuerda que w3school es bueno para HTML ')
+	</script>
+	<div>
+		<p>hola mi mundo</p>
+	</div>
+
+	<table border="1" style="	margin:  30px"	>
+		<thead>
+			Hola mundo
+		</thead>
+	<tbody>
+			mi
+		</tbody>
+	</table>
+	<br>	</br>
+
+
+
+	<h1>hola h1</h1>
+	<h2>hola h2</h2>
+	<h3>hola h3</h3>
+	<h4>hola h4</h4>
+	<h5>hola h5</h5>
+
+<ol>	
+		<li>las cosas</li>
+		<li>no se saben</li>
+		<li>solicitar</li>
+</ol>
+
+{% endblock %}
