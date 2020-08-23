@@ -1,0 +1,27 @@
+{% extends "/base/base.html" %}
+{% from "_fromhelpers.html" import render_field %}
+
+{% block buttons %}
+<a class="nav-link" href="/route1"> Centro <span class="sr-only">(current)</span></a>
+<a class="nav-link" href="/route2"> Nuestros Productos</a>
+<a class="nav-link active" href="/route3"> Contactanos </a>
+{% endblock %}
+
+{% block nombre_de_bloque %}
+<h2 style='color: #FFF; text-align: center;'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum fuga nostrum, aliquid sint incidunt voluptas, distinctio nemo id similique animi, repellat impedit et asperiores illo molestiae harum aperiam nobis! Exercitationem!</h2>
+  <div class="container" style="color: aliceblue; text-align:center;">
+    <form method="post">
+      <dl>
+        {{ render_field(form.username) }}
+      </dl>
+      <dl>
+        {{ render_field(form.password) }}
+      </dl>
+      <dl>
+        {{ render_field(form.opinion) }}
+
+      </dl>
+      <input type="submit" value="Register">
+    </form>
+  </div>
+{% endblock %}

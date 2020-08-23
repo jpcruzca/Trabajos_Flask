@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Formato html  AjuanPC</title>
+  </head>
+  <body style="background-image: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_960_720.jpg); background-repeat: no-repeat; background-size: cover;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Cholejo
+            <img src="https://scontent.fbog4-1.fna.fbcdn.net/v/t1.0-9/116444540_724666354768590_1060918074285017708_o.jpg?_nc_cat=104&_nc_sid=8bfeb9&_nc_ohc=Vy9_MTbVkJ8AX84jXr1&_nc_ht=scontent.fbog4-1.fna&oh=0de81e1276b52c06496aa4b6808c6416&oe=5F6406AA" width="60" height="45" alt="" loading="lazy">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+              {% block buttons %}
+              {% endblock %}
+          </div>
+        </div>
+      </nav>
+    {% block nombre_de_bloque %}
+
+    {% endblock %}
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container" style="text-align: center">
+          <div class="footer-copyright text-center text-white">Café Cholejo:
+            <p>El mejor café para el mejor país</p>
+          </div>
+          <a class="container-brand" href="https://www.facebook.com/Cholejo1/">
+            <img src="https://scontent.fbog4-1.fna.fbcdn.net/v/t1.0-9/116444540_724666354768590_1060918074285017708_o.jpg?_nc_cat=104&_nc_sid=8bfeb9&_nc_ohc=Vy9_MTbVkJ8AX84jXr1&_nc_ht=scontent.fbog4-1.fna&oh=0de81e1276b52c06496aa4b6808c6416&oe=5F6406AA" width="45" height="45" alt="" loading="lazy">
+            Cholejo
+          </a>
+          <br>
+          <a href="https://www.facebook.com/Cholejo1/" class="fa fa-facebook"> Siguenos en Facebook</a>
+           <br> 
+          <a href="https://www.instagram.com/" class="fa fa-instagram"> Siguenos en Instagram</a>
+        </div>
+        <!-- /.container -->
+      </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+
+</html>
+

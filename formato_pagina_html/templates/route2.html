@@ -1,0 +1,24 @@
+{% extends "/base/base.html" %}
+{% from "_fromhelpers.html" import render_field %}
+
+{% block buttons %}
+<a class="nav-link" href="/route1"> Centro <span class="sr-only">(current)</span></a>
+<a class="nav-link active" href="/route2"> Nuestros Productos</a>
+<a class="nav-link" href="/route3"> Contactanos </a>
+{% endblock %}
+
+{% block nombre_de_bloque %}
+<div class="card text-center">
+    <div class="card-header">
+      Featured
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    <div class="card-footer text-muted">
+      2 days ago
+    </div>
+  </div>
+{% endblock %}

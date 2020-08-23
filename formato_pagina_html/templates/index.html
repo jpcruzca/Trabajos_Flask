@@ -1,0 +1,18 @@
+{% extends "/base/base.html" %}
+{% from "_fromhelpers.html" import render_field %}
+
+{% block buttons %}
+<a class="nav-link" href="/route1"> Centro <span class="sr-only">(current)</span></a>
+<a class="nav-link" href="/route2"> Nuestros Productos</a>
+<a class="nav-link" href="/route3"> Contactanos </a>
+{% endblock %}
+
+{% block nombre_de_bloque %}
+<div class="jumbotron">
+    <h1 class="display-4">Formato de Página Web</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </div>
+{% endblock %}
